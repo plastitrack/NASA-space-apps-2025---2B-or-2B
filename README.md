@@ -4,17 +4,15 @@ Here is the repo for 2B or !2B team, Where the website source code, AI models so
 
 # What is the project?
 
-Our solution combines Sentinel-1 SAR satellite data with AI to generate accurate heatmaps of microplastic (MP) distribution in freshwater.SAR detects fine surface variations, while AI analyzes temporal patterns to locate and predict MP concentrations.
-This provides governments, companies, and communities with an interactive platform for real-time monitoring, identifying pollution hotspots, and guiding water management decisions.
-By integrating free satellite data, AI modeling, and time-series analysis, the system offers a fast, low-cost, and scalable alternative to traditional sampling—enhancing environmental protection and public awareness.
+Our solution combines Sentinel-1 SAR satellite data with AI to generate accurate heatmaps of microplastic (MP) distribution in freshwater. SAR detects fine surface variations, while AI analyzes temporal patterns to locate and predict MP concentrations. This provides governments, companies, and communities with an interactive platform for real-time monitoring, identifying pollution hotspots, and guiding water management decisions.By integrating free satellite data, AI modeling, and time-series analysis, the system offers a fast, low-cost, and scalable alternative to traditional sampling—enhancing environmental protection and public awareness.
 
 # Technical Overview
 
 Technologies & Tools: 
-Datasets : SLC, GRD from GEE 
-Programming : Python 
-Algorithm : Biggest Difference
-Platform : Google Colab 
-Code editor : VS code 
-Website : HTML, CSS, JS 
-API : FastAPI 
+Datasets: SLC, GRD from GEE 
+Programming: Python 
+Algorithm: Biggest Difference
+Platform: Google Colab 
+Code editor: VS code 
+Website: HTML, CSS, JS 
+API: FastAPI 
