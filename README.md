@@ -1,4 +1,4 @@
-# NASA-space-apps-2025---2B-or-2B
+# NASA-space-apps-2025---2B-or-not-2B
 
 Here is the repo for 2B or !2B team, Where the website source code, AI models source code and dataset exists.
 
