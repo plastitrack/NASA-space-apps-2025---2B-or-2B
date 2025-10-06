@@ -32,14 +32,14 @@ app = FastAPI(
     version="1.0.0"
 )
 
-# # Add CORS middleware
-# app.add_middleware(
-#     CORSMiddleware,
-#     allow_origins=["http://127.0.0.1:5500"],  # Allow your frontend origin
-#     allow_credentials=True,
-#     allow_methods=["*"],  # Allow all methods (GET, POST, OPTIONS, etc.)
-#     allow_headers=["*"],  # Allow all headers
-# )
+# Add CORS middleware
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://127.0.0.1:5500"],  # Allow your frontend origin
+    allow_credentials=True,
+    allow_methods=["*"],  # Allow all methods (GET, POST, OPTIONS, etc.)
+    allow_headers=["*"],  # Allow all headers
+)
 
 # Global variables
 MODEL_PATH = 'model_randomforest_ocean.pkl'
