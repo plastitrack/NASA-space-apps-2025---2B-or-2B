@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlasticTrack</title>
+    <link rel="icon" href="logo.png" type="image/png">
+    
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-draw@1.0.4/dist/leaflet.draw.css" />
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="map-section">
+            <div class="controls">
+                <button id="clearBtn" class="btn">Clear Selection</button>
+                <button id="saveBtn" class="btn btn-primary">Submit</button>
+                <button id="loadBtn" class="btn">Load Saved Area</button>
+                <button id="deleteBtn" class="btn btn-danger">Delete Saved</button>
+            </div>
+            
+            <div id="map"></div>
+        </div>
+
+        <div id="load-areas">
+            <div class="info-panel">
+                <h3>Selected Area Coordinates</h3>
+                <div id="coordinates">
+                    <p>No area selected yet. Use the rectangle tool to draw on the map.</p>
+                </div>
+            </div>
+            <div class="saved-areas">
+                <h3>Saved Areas</h3>
+                <div id="savedList">
+                    <p>No saved areas yet.</p>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+    
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet-draw@1.0.4/dist/leaflet.draw.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
