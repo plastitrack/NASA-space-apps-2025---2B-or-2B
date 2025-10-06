@@ -16,3 +16,11 @@ Platform: Google Colab
 Code editor: VS code 
 Website: HTML, CSS, JS 
 API: FastAPI 
+
+# How to Operate the website?
+
+1. git clone https://github.com/plastitrack/NASA-space-apps-2025---2B-or-not-2B.git
+2. cd NASA-space-apps-2025---2B-or-not-2B/backend
+3. python app.py
+4. cd ../front-end
+5. python -m http.server 5500 
