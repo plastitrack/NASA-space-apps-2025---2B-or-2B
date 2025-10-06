@@ -26,3 +26,5 @@ API: FastAPI
 5. cd ../front-end
 6. python -m http.server 5500
 7. Go to http://127.0.0.1:5500/
+8. Draw the rectangle and submit
+9. Wait from around 5 to 7 minutes
